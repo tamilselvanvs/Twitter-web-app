@@ -1,0 +1,175 @@
+/* The styles for the elements */
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 85%;
+    margin-left: 2em;
+    margin-right: 2em;
+    width: 100%;
+    background-color: lightgray;
+}
+h1 {     
+    font-size: 180%;
+    color: green;
+    margin-bottom: .5em;    
+}
+h2 {     
+    font-size: 140%;
+    color: green;
+    margin-bottom: .5em;  
+    padding-left: 0.5em;
+}
+label {
+    float: left;
+    width: 7em;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 15em;
+    margin-left: 0.5em;    
+    margin-bottom: 0.5em;
+}
+input[type="submit"], input[type="reset"] {
+    background-color: lightgoldenrodyellow;
+    font-family: Arial, Helvetica, sans-serif;
+}
+span {
+    margin-left: 0.5em;    
+    margin-bottom: 0.5em;    
+}
+br {
+    clear: both;
+}
+i {
+    color: red;
+}
+
+/* The styles for the tables */
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid black;
+    text-align: left;
+    padding: .5em;
+}
+
+/* The styles for the classes */
+.pad_top {
+    padding-top: 0.25em;
+}
+.margin_left {
+    margin-left: 0.5em;
+}
+.margin_left_top {
+    margin-left: 0.5em;
+    margin-top: 0.5em;
+}
+.post {
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.post_msg {
+    color: lightgreen;
+}
+.align_left {
+    text-align: left;
+}
+.align_right {
+    text-align: right;
+}
+.link {
+    font-size: 75%;
+    padding-left: 0.5em;
+}
+.readonly {
+    color: lightgrey;
+}
+.user_info {
+    background-color: white;
+    border-radius: 5px; 
+    width: 22.5%;
+    height: 180px;
+    float: left;
+    border-left: solid green;
+    border-top: solid green;
+    border-width: 40px;
+    padding-left: 15px;
+}
+.trends {
+    background-color: white;
+    border-radius: 5px;
+    width: 350px;;
+    height: 500px;
+    float: left;
+    border: solid green;
+    margin-top: 10px;
+}
+.my_tweets {
+    background-color: green;
+    border-radius: 5px;
+    width: 608px;
+    height: 220px;
+    margin-top: 0;
+    margin-left: 10px;
+    border-color: green;
+    float: left;
+}
+.tweet_box {
+    margin-top: 45px;
+    margin-left: 55px;
+}
+.all_tweets {
+    background-color: white;
+    border-radius: 5px;
+    width: 600px;
+    margin-left: 15px;
+    margin-right: 0;
+    margin-top: 10px;
+    border: solid green;
+    float: left;
+}
+.follow {
+    margin-left: 10px;
+    float: left;
+    padding-left: 0;
+    height: 225px;
+    width: 300px;
+    margin-right: 25px;  
+}
+.fullname {
+    font-size: 150%;
+    font-family: "Times New Roman", Georgia, Serif;
+    color: forestgreen;
+}
+.nickname {
+    font-size: 85%;
+    padding-left: 0.5em;
+}
+.header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 100%;
+    color: green;
+    float: left;
+    margin-left: 5px;
+}
+.logout {
+    float: right;
+    margin-right: 45px;
+}
+.blue {
+    color: blue;
+}
+.little_button {
+    float: right;
+    margin-right: 0.5em;
+    font-size: 75%;
+}
+.count {
+    font-size: 125%;
+    font-family: "Times New Roman", Georgia, Serif;
+    color: forestgreen;
+}
